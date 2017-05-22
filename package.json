@@ -1,13 +1,25 @@
 {
-  "name": "vonic-webpack-starter",
+  "name": "vonic-demo",
   "version": "1.0.0",
-  "description": "A Vonic Project",
-  "author": "wangdahoo <157195705@qq.com>",
-  "private": true,
+  "description": "- quick start",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caraxiong/vonic-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caraxiong/vonic-demo/issues"
+  },
+  "homepage": "https://github.com/Caraxiong/vonic-demo#readme",
   "dependencies": {
     "vonic": "^2.0.0-beta.10"
   },
