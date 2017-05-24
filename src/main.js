@@ -2,13 +2,13 @@ import Vue from 'vue'
 import Vonic from 'vonic'
 
 // Page Components
-import App from './components/app.vue'
-import Foods from './components/hospital/foods.vue'
-import Orders from './components/hospital/orders.vue'
-import Setting from './components/hospital/setting.vue'
-import Food from './components/patient/food.vue'
-import Order from './components/patient/order.vue'
-import Myorder from './components/patient/myorder.vue'
+import App from './views/app.vue'
+import Foods from './views/hospital/foods.vue'
+import Orders from './views/hospital/orders.vue'
+import Setting from './views/hospital/setting.vue'
+import Food from './views/patient/food.vue'
+import Order from './views/patient/order.vue'
+import Myorder from './views/patient/myorder.vue'
 
 // Routes
 const routes = [
